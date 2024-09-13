@@ -20,4 +20,62 @@
   font-family: var(--font-main);
   background-image: var(--background-gradient);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--header-width);
+  text-transform: uppercase;
+  background-color: var(--background-color);
+  margin-top: 100px;
+  font-family: var(--font-accent);
+  color: var(--accent-color);
+}
+
+.main-header{
+  font-size: 65px;
+  line-height: 65px;
+  margin-top: clamp(120px, 33%, 136px);
+}
+
+.main-header_explain {
+  font-size: 23px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.theme-menu__list {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.theme-menu__button {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.main {
+  width: var(--main-width);
+}
+
+
+
+@media (width <= 375px){
+  .main-header{
+    font-size: 49px;
+    line-height: 49px;
+  }
+
+  .main-header_explain{
+    font-size: 14px;
+    line-height: 14px;
+  }
+
 }

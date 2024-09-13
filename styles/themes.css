@@ -7,6 +7,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff;
+    --accent-color: #000;
     --background-horrizontal-strap: #d3d3d3;
     --background-vertical-start: #e7e7e7;
     --background-vertical-end: #1a1a1a;
@@ -18,6 +19,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #000;
+    --accent-color: #00CC14;
     --background-horrizontal-strap: #000;
     --background-vertical-start: #007f0c;
     --background-vertical-end: #004306;
@@ -28,6 +30,7 @@
 
 .theme-light {
   --background-color: #fff;
+  --accent-color: #000;
   --background-horrizontal-strap: #d3d3d3;
   --background-vertical-start: #e7e7e7;
   --background-vertical-end: #1a1a1a;
@@ -38,6 +41,7 @@
 
 .theme-dark {
   --background-color: #000;
+  --accent-color: #00CC14;
   --background-horrizontal-strap: #000;
   --background-vertical-start: #007f0c;
   --background-vertical-end: #004306;
