@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --background-color: #fff;
+  --background-horrizontal-strap: #d3d3d3;
+  --background-vertical-start: #e7e7e7;
+  --background-vertical-end: #1a1a1a;
+  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, var(--background-vertical-start)0.01%, var(--background-vertical-end)100%);
+  --font-main: 'Inter', sans-serif;
+  --font-accent: 'PressStart2', sans-serif;
+  --font-h-weight: ;
+  --font-text-weight: ;
+  --accent-color: ;
+}

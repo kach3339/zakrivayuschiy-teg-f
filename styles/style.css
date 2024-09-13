@@ -17,4 +17,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--font-main);
+  background-image: var(--background-gradient);
+  background-size: cover;
 }
