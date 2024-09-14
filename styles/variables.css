@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --background-color: #fff;
+  --main-color: #fff;
   --accent-color: #000;
   --hover-active-color:rgba(0,0,0,0.6);
   --background-horrizontal-strap: #d3d3d3;
@@ -10,8 +10,8 @@
   linear-gradient(to bottom, var(--background-vertical-start)0.01%, var(--background-vertical-end)100%);
   --font-main: 'Inter', sans-serif;
   --font-accent: 'PressStart2P', sans-serif;
-  --font-h-weight: ;
-  --font-text-weight: ;
+  --font-h-weight: 700;
+  --font-text-weight: 400;
   --header-width: clamp(375px, 100vw, 700px);
   --main-width: clamp(375px, 100vw, 696px);
 }
