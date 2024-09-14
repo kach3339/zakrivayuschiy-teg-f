@@ -123,6 +123,7 @@
   font-size: 18px;
   font-variation-settings: 'wght' var(--font-h-weight);
   border-bottom: 2px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 .topic_image-container {
@@ -170,29 +171,33 @@
   display: flex;
   flex-direction: column;
   gap: 27px;
-  padding-top: 28px;
+  padding-top: 26px;
   padding-left: 24px;
   padding-right: 26px;
-  padding-bottom: 24px;
+  padding-bottom: 22px;
 }
 
 .topic-text {
   font-size: 18px;
   line-height: 21px;
   font-weight: var(--font-text-weight);
+  color: var(--accent-color);
 }
 
 .topic-button_container {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  margin-top: 2px;
-  margin-right: 22px;
-  margin-bottom: 24px;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 25px 25px;
 }
 
 
 .card__icon-button {
+  position: relative;
+  top: 2px;
+  display: flex;
+  padding: 0;
   background: transparent;
   border: 1px solid transparent;
 }
@@ -205,8 +210,9 @@
   background: transparent;
   border: 1px solid transparent;
   border: 2px solid var(--accent-color);
-  padding: 8px 37px;
+  padding-right: 37px;
   padding-left: 34px;
+  height: 38px;
 }
 
 .button__text {
@@ -214,6 +220,7 @@
   font-family: var(--font-accent);
   font-size: 14px;
   line-height: 12.6px;
+  color: var(--accent-color);
 }
 
 @media (width <= 375px) {

@@ -13,5 +13,5 @@
   --font-h-weight: 700;
   --font-text-weight: 400;
   --header-width: clamp(375px, 100vw, 700px);
-  --main-width: clamp(375px, 100vw, 696px);
+  --main-width: clamp(375px, 100vw, 700px);
 }
