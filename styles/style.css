@@ -32,15 +32,18 @@
   width: var(--header-width);
   text-transform: uppercase;
   background-color: var(--background-color);
-  margin-top: 100px;
+  margin: 100px 0;
   font-family: var(--font-accent);
   color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  padding-top: clamp(118px, 32.5%, 136px);
+  padding-bottom: 22px;
+
 }
 
 .main-header{
   font-size: 65px;
   line-height: 65px;
-  margin-top: clamp(120px, 33%, 136px);
 }
 
 .main-header_explain {
@@ -50,19 +53,62 @@
 }
 
 .theme-menu__list {
-  margin: 25px 0;
+  margin-top: 23px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
 }
 
 .theme-menu__button {
   font-size: 14px;
   line-height: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: 0.35s ease;
+  position: relative;
+}
+
+.theme-menu__button:disabled {
+  color: var(--hover-active-color);
+}
+
+.theme-menu__button:disabled::before {
+  content: '▶';
+  position: absolute;
+  left: -16px;
+  animation: arrow 0.5s ease-in-out infinite alternate;
+  color: var(--hover-active-color);
+}
+
+.theme-menu__button:hover {
+  color: var(--hover-active-color);
+}
+
+.theme-menu__button:active {
+  color: var(--hover-active-color);
+}
+
+.theme-menu__button:focus {
+  outline: none;
+}
+
+.theme-menu__button:focus-visible {
+  outline: none;
 }
 
 .main {
   width: var(--main-width);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.topic-block{
+  border: 2px solid var(--accent-color);
 }
 
 
@@ -76,6 +122,7 @@
   .main-header_explain{
     font-size: 14px;
     line-height: 14px;
+    margin-top: 18px;
   }
 
 }

@@ -2,6 +2,7 @@
 :root {
   --background-color: #fff;
   --accent-color: #000;
+  --hover-active-color:rgba(0,0,0,0.6);
   --background-horrizontal-strap: #d3d3d3;
   --background-vertical-start: #e7e7e7;
   --background-vertical-end: #1a1a1a;
