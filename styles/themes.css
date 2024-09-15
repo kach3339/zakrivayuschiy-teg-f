@@ -8,6 +8,7 @@
   :root {
     --main-color: #fff;
     --accent-color: #000;
+    --button-hover-color:#fff;
     --font-h-weight: 700;
     --font-text-weight: 400;
     --hover-active-color:rgba(0,0,0,0.6);
@@ -23,6 +24,7 @@
   :root {
     --main-color: #000;
     --accent-color: #00CC14;
+    --button-hover-color:#00CC14;
     --font-h-weight: 785;
     --font-text-weight: 465;
     --hover-active-color:rgba(0,204,20,0.6);
@@ -37,6 +39,7 @@
 .theme-light {
   --main-color: #fff;
   --accent-color: #000;
+  --button-hover-color:#fff;
   --font-h-weight: 700;
   --font-text-weight: 400;
   --hover-active-color:rgba(0,0,0,0.6);
@@ -51,6 +54,7 @@
 .theme-dark {
   --main-color: #000;
   --accent-color: #00CC14;
+  --button-hover-color:#00CC14;
   --font-h-weight: 785;
   --font-text-weight: 465;
   --hover-active-color:rgba(0,204,20,0.6);
