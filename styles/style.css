@@ -234,6 +234,10 @@
 
 }
 
+.sparks {
+  opacity: 0;
+}
+
 .card__like-button {
   cursor: pointer;
   background: transparent;
