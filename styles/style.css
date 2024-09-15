@@ -239,11 +239,10 @@
 }
 
 .card__like-button {
+  width: 130px;
   cursor: pointer;
   background: transparent;
   border: 2px solid var(--accent-color);
-  padding-right: 37px;
-  padding-left: 34px;
 }
 
 .like-save_button {
