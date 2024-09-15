@@ -152,7 +152,6 @@
 .topic_image_lable {
   position: absolute;
   z-index: 1;
-  text-transform: uppercase;
   top: 24px;
   right: 26px;
   font-family: var(--font-accent);
@@ -183,10 +182,42 @@
   display: flex;
   height: 100%;
   border-bottom: 2px solid var(--accent-color);
+}
 
+.bright {
+  filter: brightness(130%);
+}
+
+.dark {
+  filter: grayscale(80%) brightness(140%);
+}
+
+.saturate {
+  filter: saturate(500%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(30deg);
+}
+
+.invert {
+  filter: invert(100%) contrast(60%);
+}
+
+.sepia {
+  filter: sepia(100%);
+}
+
+.blur {
+  filter: blur(16px);
+}
+
+.mix {
+  filter: sepia(50%) hue-rotate(90deg) blur(1px) contrast(60%) brightness(140%);
 }
 
 .topic-text_container {
+  border-top: 2px solid var(--accent-color);
   display: flex;
   flex-direction: column;
   gap: 27px;
