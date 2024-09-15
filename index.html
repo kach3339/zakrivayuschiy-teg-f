@@ -297,13 +297,23 @@
       </ul>
     </main>
     <footer class="footer">
-      <button class="like-save_button save_button">
+      <button class="like-save_button save_button" type="button" onclick="window['dialog-id'].showModal()" aria-controls="dialog-id">
         <svg class="floppy" xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" viewBox="0 0 40 40">
             <use fill="currentColor" href="./svg/floppy.svg#floppy-icon"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-
+      <dialog id="dialog-id" class="dialog-id">
+        <div class="dialog__content">
+          <svg class="floppy__dialog" xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" viewBox="0 0 40 40">
+            <use href="./svg/floppy.svg#floppy-icon"></use>
+          </svg>
+          <span class="dialog__text button__text">Вставьте дискету, чтобы продолжить</span>
+        </div>
+        <form>
+          <button class="dialog__button"><span class="button__text">OK</span></button>
+        </form>
+      </dialog>
     </footer>
     <script src="./scripts/like.js"></script>
   </body>
