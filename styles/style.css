@@ -206,7 +206,6 @@
 .topic-button_container {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   gap: 5px;
   padding: 2px 25px 25px;
 }
@@ -215,11 +214,20 @@
 .card__icon-button {
   cursor: pointer;
   position: relative;
-  top: 2px;
   display: flex;
   padding: 0;
   background: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  outline: none;
+  border: 2px solid var(--accent-color);
 }
 
 .like-icon {
@@ -229,11 +237,9 @@
 .card__like-button {
   cursor: pointer;
   background: transparent;
-  border: 1px solid transparent;
   border: 2px solid var(--accent-color);
   padding-right: 37px;
   padding-left: 34px;
-  height: 38px;
 }
 
 .like-save_button {
