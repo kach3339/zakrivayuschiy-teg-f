@@ -349,4 +349,19 @@
     padding-bottom: 4px;
     line-height: 23px;
   }
+
+  .footer {
+    margin-top: 50px;
+    margin-bottom: 104px;
+  }
+
+  .save_button {
+    flex-direction: column;
+
+  }
+
+  .floppy{
+    width: 28px;
+    height: 28px;
+  }
 }
