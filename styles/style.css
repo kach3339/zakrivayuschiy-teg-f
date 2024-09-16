@@ -344,7 +344,7 @@
 }
 
 .save-window_dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.7);
+  background-color: rgb(0 0 0 / 0.75);
 }
 
 .save-window_dialog[open] {
