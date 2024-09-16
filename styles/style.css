@@ -409,13 +409,10 @@
 
   .save_button {
     margin-bottom: 100px;
-  }
-
-  .save_button {
     flex-direction: column;
   }
 
-  .floppy{
+  .floppy {
     width: 28px;
     height: 28px;
   }
