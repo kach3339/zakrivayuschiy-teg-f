@@ -20,6 +20,7 @@
   font-family: var(--font-main);
   background-image: var(--background-gradient);
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,7 +347,7 @@
   background-color: rgb(0 0 0 / 0.7);
 }
 
-.save-window_dialog {
+.save-window_dialog[open] {
   display: flex;
   flex-direction: column;
   align-items: center;
