@@ -49,4 +49,3 @@
   --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
   linear-gradient(to bottom, var(--background-vertical-start), var(--background-vertical-end)100%);
 }
-
