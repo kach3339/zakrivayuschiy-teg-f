@@ -9,43 +9,43 @@
   :root {
     --main-color: #000;
     --accent-color: #00CC14;
-    --button-hover-color:#00CC14;
+    --button-hover-color: #00CC14;
     --font-h-weight: 785;
     --font-text-weight: 465;
-    --hover-active-color:rgba(0,204,20,0.6);
+    --hover-active-color: rgba(0, 204, 20, 0.6);
     --background-horrizontal-strap: #000;
     --background-vertical-start: #007f0c;
     --background-vertical-end: #004306;
-    --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
-    linear-gradient(to bottom, var(--background-vertical-start), var(--background-vertical-end)100%);
+    --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, var(--background-vertical-start), var(--background-vertical-end) 100%);
   }
 }
 
 .theme-light {
   --main-color: #fff;
   --accent-color: #000;
-  --button-hover-color:#fff;
+  --button-hover-color: #fff;
   --font-h-weight: 700;
   --font-text-weight: 400;
-  --hover-active-color:rgba(0,0,0,0.6);
+  --hover-active-color: rgba(0, 0, 0, 0.6);
   --background-horrizontal-strap: #d3d3d3;
   --background-vertical-start: #e7e7e7;
   --background-vertical-end: #1a1a1a;
-  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
-  linear-gradient(to bottom, var(--background-vertical-start)0.01%, var(--background-vertical-end)100%);
+  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, var(--background-vertical-start) 0.01%, var(--background-vertical-end) 100%);
 }
 
 
 .theme-dark {
   --main-color: #000;
   --accent-color: #00CC14;
-  --button-hover-color:#00CC14;
+  --button-hover-color: #00CC14;
   --font-h-weight: 785;
   --font-text-weight: 465;
-  --hover-active-color:rgba(0,204,20,0.6);
+  --hover-active-color: rgba(0, 204, 20, 0.6);
   --background-horrizontal-strap: #000;
   --background-vertical-start: #007f0c;
   --background-vertical-end: #004306;
-  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
-  linear-gradient(to bottom, var(--background-vertical-start), var(--background-vertical-end)100%);
+  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, var(--background-vertical-start), var(--background-vertical-end) 100%);
 }

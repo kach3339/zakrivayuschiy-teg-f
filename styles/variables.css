@@ -2,14 +2,14 @@
 :root {
   --main-color: #fff;
   --accent-color: #000;
-  --button-hover-color:#fff;
-  --heart-color:#FF0000;
-  --hover-active-color:rgba(0,0,0,0.6);
+  --button-hover-color: #fff;
+  --heart-color: #FF0000;
+  --hover-active-color: rgba(0, 0, 0, 0.6);
   --background-horrizontal-strap: #d3d3d3;
   --background-vertical-start: #e7e7e7;
   --background-vertical-end: #1a1a1a;
-  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
-  linear-gradient(to bottom, var(--background-vertical-start)0.01%, var(--background-vertical-end)100%);
+  --background-gradient: repeating-linear-gradient(to right, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, var(--background-horrizontal-strap), var(--background-horrizontal-strap) 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, var(--background-vertical-start) 0.01%, var(--background-vertical-end) 100%);
   --font-main: 'Inter', sans-serif;
   --font-accent: 'PressStart2P', sans-serif;
   --font-h-weight: 700;
