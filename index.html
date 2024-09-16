@@ -296,8 +296,6 @@
           </div>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
       <button type="button" class="like-save_button save_button" type="button" onclick="window['dialog-id'].showModal()" aria-controls="dialog-id">
         <svg class="floppy" xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" viewBox="0 0 40 40">
             <use fill="currentColor" href="./svg/floppy.svg#floppy-icon"></use>
@@ -311,11 +309,11 @@
           </svg>
           <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
         </div>
-        <form class="dialog__form">
+        <form method="dialog" class="dialog__form">
           <button class="dialog__button like-save_button"><span class="button__text">ок</span></button>
         </form>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
