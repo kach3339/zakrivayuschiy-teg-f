@@ -402,6 +402,10 @@
     line-height: 23px;
   }
 
+  .topic_image_lable {
+    right: 10px;
+  }
+
   .save_button {
     margin-bottom: 100px;
   }
